@@ -1,0 +1,17 @@
+### Desa Bolger and Emma Beyer
+### Add more info here, email address etc.
+
+#The goal of this document is to process the data into something that will be workable. 
+
+
+#Read in the packages
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Point
+
+#Read the CSV into a Pandas dataframe
+WrecksFile = gpd.read_file('../Data/Wrecks_and_Obstructions.shp')
+WrecksFile.head()
+
+#Reveal the columns
+WrecksFile.columns
