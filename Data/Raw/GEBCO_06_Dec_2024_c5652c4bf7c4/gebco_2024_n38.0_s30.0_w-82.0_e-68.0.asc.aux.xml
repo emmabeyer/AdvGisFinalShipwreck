@@ -1,0 +1,101 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="elevation#grid_mapping">crs</MDI>
+    <MDI key="elevation#long_name">Elevation relative to sea level</MDI>
+    <MDI key="elevation#sdn_parameter_name">Sea floor height (above mean sea level) {bathymetric height}</MDI>
+    <MDI key="elevation#sdn_parameter_urn">SDN:P01::BATHHGHT</MDI>
+    <MDI key="elevation#sdn_uom_name">Metres</MDI>
+    <MDI key="elevation#sdn_uom_urn">SDN:P06::ULAA</MDI>
+    <MDI key="elevation#standard_name">height_above_mean_sea_level</MDI>
+    <MDI key="elevation#units">m</MDI>
+    <MDI key="lat#axis">Y</MDI>
+    <MDI key="lat#long_name">latitude</MDI>
+    <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+    <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+    <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+    <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+    <MDI key="lat#standard_name">latitude</MDI>
+    <MDI key="lat#units">degrees_north</MDI>
+    <MDI key="lon#axis">X</MDI>
+    <MDI key="lon#long_name">longitude</MDI>
+    <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+    <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+    <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+    <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+    <MDI key="lon#standard_name">longitude</MDI>
+    <MDI key="lon#units">degrees_east</MDI>
+    <MDI key="NC_GLOBAL#comment">The data in the GEBCO_2024 Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+    <MDI key="NC_GLOBAL#Conventions">CF-1.6, ACDD-1.3</MDI>
+    <MDI key="NC_GLOBAL#creator_email">gdacc@seabed2030.org</MDI>
+    <MDI key="NC_GLOBAL#creator_name">GEBCO through the Nippon Foundation-GEBCO Seabed 2030 Project</MDI>
+    <MDI key="NC_GLOBAL#creator_type">International organisation</MDI>
+    <MDI key="NC_GLOBAL#creator_url">https://www.gebco.net</MDI>
+    <MDI key="NC_GLOBAL#date_created">2024-07-04</MDI>
+    <MDI key="NC_GLOBAL#geospatial_bounds">{-180,-90,180,90}</MDI>
+    <MDI key="NC_GLOBAL#geospatial_bounds_crs">WGS84</MDI>
+    <MDI key="NC_GLOBAL#geospatial_bounds_vertical_crs">EPSG:5831</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_max">90</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_min">-90</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.004166666666666667</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_max">180</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_min">-180</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.004166666666666667</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+    <MDI key="NC_GLOBAL#geospatial_vertical_max">8627</MDI>
+    <MDI key="NC_GLOBAL#geospatial_vertical_min">-10919</MDI>
+    <MDI key="NC_GLOBAL#geospatial_vertical_positive">up</MDI>
+    <MDI key="NC_GLOBAL#geospatial_vertical_resolution">1</MDI>
+    <MDI key="NC_GLOBAL#geospatial_vertical_units">meters</MDI>
+    <MDI key="NC_GLOBAL#history">Information on the development of the data set and the source data sets included in the grid can be found in the data set documentation available from https://www.gebco.net</MDI>
+    <MDI key="NC_GLOBAL#id">DOI: 10.5285/1c44ce99-0a0d-5f4f-e063-7086abc0ea0f</MDI>
+    <MDI key="NC_GLOBAL#identifier_product_doi">DOI: 10.5285/1c44ce99-0a0d-5f4f-e063-7086abc0ea0f</MDI>
+    <MDI key="NC_GLOBAL#institution">On behalf of the General Bathymetric Chart of the Oceans (GEBCO), the data are held at the British Oceanographic Data Centre (BODC).</MDI>
+    <MDI key="NC_GLOBAL#keywords">BATHYMETRY/SEAFLOOR TOPOGRAPHY, DIGITAL ELEVATION/DIGITAL TERRAIN MODELS</MDI>
+    <MDI key="NC_GLOBAL#license">The GEBCO Grid is placed in the public domain and may be used free of charge. Use of the GEBCO Grid indicates that the user accepts the conditions of use and disclaimer information: https://www.gebco.net/</MDI>
+    <MDI key="NC_GLOBAL#naming_authority">https://dx.doi.org</MDI>
+    <MDI key="NC_GLOBAL#node_offset">1</MDI>
+    <MDI key="NC_GLOBAL#project">Nippon Foundation - GEBCO Seabed2030 Project</MDI>
+    <MDI key="NC_GLOBAL#references">DOI: 10.5285/1c44ce99-0a0d-5f4f-e063-7086abc0ea0f</MDI>
+    <MDI key="NC_GLOBAL#source">The GEBCO_2024 Grid is the 2024 release of the  global bathymetric product published by the General Bathymetric Chart of the Oceans (GEBCO) and has been developed through the Nippon Foundation-GEBCO Seabed 2030 Project. This is a collaborative project between the Nippon Foundation of Japan and GEBCO. The Seabed 2030 Project aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor and make it available to all.</MDI>
+    <MDI key="NC_GLOBAL#summary">The GEBCO_2024 Grid is a continuous, global terrain model for ocean and land with a spatial resolution of 15 arc seconds.The grid uses as a base-map Version 2.6 of the SRTM15+ data set (Tozer et al, 2019). This data set is a fusion of land topography with measured and estimated seafloor topography. It is augmented with gridded bathymetric data sets developed as part of the Nippon Foundation-GEBCO Seabed 2030 Project.</MDI>
+    <MDI key="NC_GLOBAL#title">The GEBCO_2024 Grid - a continuous terrain model for oceans and land at 15 arc-second intervals</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <UnitType>m</UnitType>
+    <Histograms>
+      <HistItem>
+        <HistMin>-5762</HistMin>
+        <HistMax>1724</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1|0|1|0|3|8|228|1030|2162|11045|24212|258971|246733|154964|139204|111351|96260|89561|78701|81281|55746|34688|34577|34727|25464|21952|20632|19595|26406|24146|25827|23940|23156|24846|24973|27755|27988|27956|28655|32027|31497|35251|50878|56289|52286|49748|48177|48186|43904|36761|34674|30940|28619|29449|27417|27349|28475|25845|23123|21554|20140|20009|18543|16560|17183|16475|16752|17320|17292|19201|19439|18964|18694|17317|16393|16825|15991|16207|16827|16476|16081|16289|15368|15958|16870|16466|18900|19087|19870|20103|17572|17646|17254|16345|14859|14823|13133|13137|12854|11866|12282|12197|12944|14399|13725|13399|11841|10439|9829|9331|8425|8312|8099|7306|7068|6519|6379|6667|6358|5836|5605|5162|5210|4959|4414|4253|4456|4322|4355|4110|3849|3792|3645|3491|3591|3232|3083|3132|2964|2839|2982|2788|2884|2804|2748|2779|2726|2640|2714|2561|2618|2674|2701|2759|3025|3129|3434|3893|3819|4443|4467|5066|6326|6937|8517|17736|22937|36490|59291|29327|17579|13706|12536|13409|15495|16240|15545|16579|17889|18493|17303|13872|13671|11644|11038|11264|12329|12717|9876|11462|10287|10945|14376|25844|109423|457060|495241|299247|125654|116779|98020|91583|70421|58592|54209|37788|24383|19331|16652|14284|11768|9244|8331|8706|9041|10191|11864|13625|13871|12341|12025|13685|13850|13082|11034|8820|7191|6214|4673|3953|3179|2659|2350|1968|1704|1440|1024|753|560|431|333|281|211|193|147|112|79|55|45|32|21|12|9|7|2|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="grid_mapping">crs</MDI>
+      <MDI key="long_name">Elevation relative to sea level</MDI>
+      <MDI key="NETCDF_VARNAME">elevation</MDI>
+      <MDI key="sdn_parameter_name">Sea floor height (above mean sea level) {bathymetric height}</MDI>
+      <MDI key="sdn_parameter_urn">SDN:P01::BATHHGHT</MDI>
+      <MDI key="sdn_uom_name">Metres</MDI>
+      <MDI key="sdn_uom_urn">SDN:P06::ULAA</MDI>
+      <MDI key="standard_name">height_above_mean_sea_level</MDI>
+      <MDI key="STATISTICS_COUNT">6451200.000000</MDI>
+      <MDI key="STATISTICS_COVARIANCES">5421764.557755182</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">1724</MDI>
+      <MDI key="STATISTICS_MEAN">-2473.2833696056</MDI>
+      <MDI key="STATISTICS_MEDIAN">-2943.741176</MDI>
+      <MDI key="STATISTICS_MINIMUM">-5762</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">2328.4682857525</MDI>
+      <MDI key="units">m</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
