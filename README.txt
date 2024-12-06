@@ -5,3 +5,5 @@ Marine Cadastre Wreck Shapefile - https://hub.marinecadastre.gov/datasets/476bed
 Baythmetry GEOTIFF - https://download.gebco.net/
 
 US EEZ shapefile - https://www.marineregions.org/gazetteer.php?p=details&id=8456
+
+NC counties shoreline data - https://connect.ncdot.gov/resources/gis/Pages/GIS-Data-Layers.aspx
